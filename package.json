@@ -1,0 +1,28 @@
+{
+  "name": "darkbot2",
+  "version": "0.1.0",
+  "description": "Darkbot rewritten for the third time.",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "watch": "./node_modules/.bin/tsc -w",
+    "start": "node build/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkaqua/darkbot2.git"
+  },
+  "author": "darkaqua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkaqua/darkbot2/issues"
+  },
+  "homepage": "https://github.com/darkaqua/darkbot2#readme",
+  "dependencies": {
+    "discord.js": "11.3.x"
+  },
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "typescript": "^2.6.2"
+  }
+}
